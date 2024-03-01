@@ -155,6 +155,15 @@ a.Multi_que_image(10,'WHAT IS THE NAME OF THIS PART AND WHERE CAN WE USE IT?','s
 a.Multi_que(11,"Can castor wheel make good turns in car than normal wheel?",("true","false"),"true")
 a.Multi_que_image(12,'WHICH PARTS ARE REQUIRED TO CREATE THIS PORTION?','model.jpg',('MOTOR,U-CHANNEL,FILLER,WHEEL,AXLE LOCK','SPANNER,U-CHANNEL,FILLER,WHEEL,AXLE LOCK','MOTOR,U-CHANNEL,FILLER,WHEEL,U-BEAM','MOTOR,U-CHANNEL,AXLE,WHEEL,AXLE LOCK'),'MOTOR,U-CHANNEL,FILLER,WHEEL,AXLE LOCK')
 a.Multi_que(13,"CAN WE MOVE THE RC CAR IN EVERY DIRECTION (TRUE OR FALSE)?",("true","false"),"true")
+a.Multi_que_image(14,"WHICH PART IS THIS?","3-hole connectore.png",("filler","nuts and bolts","3-hole connector","spanner"),"3-hole connector")
+a.Multi_que(15,"ON WHICH PORT WILL THE WIRE OF TORQUE MOTOR GOES?",('M4','M3','M2','M1'),'M1')
+a.Multi_que(16,"how many castor wheels are inserted in one-arm soccer bot",('1','2','3','4'),'1')
+a.Multi_que_image(17,"WHICH PART IS THIS FROM MODEL?","L-beam.png",("l-channel","l-beam","u-channel","u-beam"),"l-beam")
+a.Multi_que(18,"WHICH SIZE OF AXLE WE HAVE TO INSERT IN TORQUE MOTOR?",("5.5mm axle","7.5mm axle","3.5mm axle","none of these"),"3.5mm axle")
+a.Multi_que(19,"Can we use castor wheel on the back of the model (true/false)?",("True","False"),"False")
+a.Multi_que(20,"ON WHICH PART WE WILL INSERT THE ONE ARM ?",("square plate","rectangular plate",'u-channel','axle'),'rectangular plate')
+
+
 a.get_answer()
 a.show_answer()
 
